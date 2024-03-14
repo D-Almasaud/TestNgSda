@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoginTestsSuite">
+    <test name="PositiveLoginTest">
+        <parameter name="username" value="student" />
+        <parameter name="password" value="Password123" />
+        <classes>
+            <class name="sda.tests.HomeWorks.Day16.HW02" />
+        </classes>
+    </test>
+    <test name="NegativeUsernameTest">
+        <parameter name="username" value="invalidUser" />
+        <parameter name="password" value="Password123" />
+        <classes>
+            <class name="sda.tests.HomeWorks.Day16.HW02" />
+        </classes>
+    </test>
+    <test name="NegativePasswordTest">
+        <parameter name="username" value="student" />
+        <parameter name="password" value="invalidPassword" />
+        <classes>
+            <class name="sda.tests.HomeWorks.Day16.HW02" />
+        </classes>
+    </test>
+</suite>
