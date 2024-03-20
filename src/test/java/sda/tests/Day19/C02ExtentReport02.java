@@ -1,15 +1,12 @@
 package sda.tests.Day19;
 
-import com.aventstack.extentreports.Status;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import utilities.ExtentReportUtils;
-import utilities.TestBase;
-import utilities.TestBaseExtendReport;
-
+import sda.utilities.ExtentReportUtils;
+import sda.utilities.TestBase;
 
 
 public class C02ExtentReport02 extends TestBase {

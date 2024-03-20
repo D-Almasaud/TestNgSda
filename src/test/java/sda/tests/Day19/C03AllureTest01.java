@@ -5,7 +5,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import utilities.TestBase;
+import sda.utilities.TestBase;
 
 import java.time.Duration;
 
@@ -21,7 +21,6 @@ public class C03AllureTest01 extends TestBase {
         Verify error message text is Your username is invalid!
 
          */
-
         @Test
         public void negativeUserNameTestSoft() throws InterruptedException {
             //Open page https://practicetestautomation.com/practice-test-login/

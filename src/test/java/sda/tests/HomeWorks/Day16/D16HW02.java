@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import utilities.TestBase;
+import sda.utilities.TestBase;
 
 
 public class D16HW02 extends TestBase {

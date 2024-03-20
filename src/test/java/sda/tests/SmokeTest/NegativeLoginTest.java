@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import utilities.TestBase;
+import sda.utilities.TestBase;
 
 public class NegativeLoginTest extends TestBase {
 

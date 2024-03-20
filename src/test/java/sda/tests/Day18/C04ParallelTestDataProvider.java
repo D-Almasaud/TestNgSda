@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import utilities.TestBase;
+import sda.utilities.TestBase;
 
 import java.time.Duration;
 

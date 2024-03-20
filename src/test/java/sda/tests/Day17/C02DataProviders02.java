@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import utilities.TestBase;
+import sda.utilities.TestBase;
 
 public class C02DataProviders02 extends TestBase {
 

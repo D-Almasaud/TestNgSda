@@ -3,7 +3,7 @@ package sda.tests.HomeWorks.Day17;
 import org.openqa.selenium.By;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import utilities.TestBase;
+import sda.utilities.TestBase;
 
     public class D17HW01 extends TestBase {
 

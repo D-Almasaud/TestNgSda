@@ -1,7 +1,6 @@
 package sda.tests.Day18;
 
 import org.testng.annotations.Test;
-import utilities.TestBase;
 
 public class C01ParallelTest01  {
     @Test
